@@ -1,0 +1,172 @@
+body {
+    font-family: Raleway, serif;
+    background: url(https://preview.ibb.co/nss0ER/pic.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 5em;
+}
+
+/* https://image.ibb.co/k1jVW6/picture.jpg */
+/* https://preview.ibb.co/nss0ER/pic.jpg */
+button {
+    font-size: 17px;
+    padding: 12px;
+    width: 164px;
+    border: none;
+    background: #121;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.fa {
+    float: right;
+    font-size: 20px;
+    margin: 10px;
+}
+
+form {
+    margin: 60px;
+}
+
+footer.form-footer {
+    margin-top: 50px;
+}
+
+a {
+    color: rgb(202,192,182);
+}
+
+h1 {
+    font-size: 44px;
+    text-align: center;
+    color: #123;
+    font-weight: 100;
+
+}
+
+#terms {
+    margin-top: 430px;
+    text-align: center;
+
+}
+
+.common-class {
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(202,192,182);
+    margin: 10px 0 40px 0px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    margin-top: 5px;
+}
+
+label {
+    color: rgb(202,192,182) ;
+    display: block;
+    margin-top: 5px;
+}
+
+.main-log-in {
+    background: #fff;
+    min-width: 50%;
+    min-height: 620px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-pic-box {
+    min-height: 560px;
+    box-sizing: border-box;
+    min-width: 35%;
+    background: url(https://image.ibb.co/k1jVW6/picture.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+/* @media screen and (max-width: 1024px) {
+    body {
+        padding: 0px;
+    }
+
+    .container {
+        margin-top: 400px;
+    }
+} */
+
+
+
+@media screen and (max-width: 1000px) {
+    .main-log-in {
+        min-width: 80%;
+    }
+
+    .main-pic-box{
+        min-width: 40%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 850px){
+    #terms {
+        margin-top: 420px;
+    }
+
+    button {
+        width: 120px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    h1 {
+        margin-top: -3px;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .container {
+        display: block;
+        margin-left: -20px;
+        margin-right: 0;
+    }
+
+    .main-pic-box {
+        background: url(https://image.ibb.co/k1jVW6/picture.jpg) no-repeat center;
+        min-height: 100px;
+        min-width: 400px;
+    }
+
+    .main-log-in {
+        height: 220px;
+        min-width: 400px;
+    }
+
+    #terms {
+        margin-top: 100px;
+        color: #fff;
+    }
+
+}
